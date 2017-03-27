@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BigNews-Sample</string>
+    <string name="description">增量更新框架测试：先编译APP，将程序跑起来，改动一下源码再编译一个APK!!!!</string>
+    <string name="diff">将新生成的apk放在/sdcard/new.apk，计算偏差，生成patch文件。</string>
+    <string name="make">将patch文件放到/sdcard/patch，合成新版本apk文件，弄个大新闻。</string>
+    <string name="diff_done">patch包已经生成到</string>
+    <string name="diff_failed">patch包生成失败！你到底放了apk没有！</string>
+    <string name="make_failed">apk生成失败！你到底放了patch包没有！</string>
+    <string name="make_done">apk生成到</string>
+    <string name="description2">看看成功了没??!!</string>
+</resources>
