@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+version = "0.1.1"
 
 android {
     compileSdkVersion 25
@@ -8,7 +9,7 @@ android {
         minSdkVersion 9
         targetSdkVersion 22
         versionCode 1
-        versionName "0.1"
+        versionName version
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

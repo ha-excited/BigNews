@@ -9,7 +9,7 @@
 
 ****导入方法****：  
 
-方法1. 下载本项目，Android Studio 中 File->New->Import Module导入本项目
+方法1. 下载本项目，Android Studio 中 File->New->Import Module导入本项目。
 
 方法2. 下载本项目，将本项目编译，从library/build/outputs/aar中拷贝library-release.aar重命名为bignews.aar， 放到你项目的libs目录。  
 打开项目模块内的build.gradle（通常为app/build.gradle）添加代码后Gradle Sync：
@@ -36,7 +36,7 @@ allprojects {
 在你项目模块内的build.gradle添加代码，然后Gradle Sync：
 ```gradle
     dependencies {
-        compile 'com.github.ha-excited:BigNews:0.1'
+        compile 'com.github.ha-excited:BigNews:0.1.1'
     }
 ```
 
