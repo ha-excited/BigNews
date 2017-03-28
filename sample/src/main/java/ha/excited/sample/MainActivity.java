@@ -1,16 +1,16 @@
 package ha.excited.sample;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
 import java.io.File;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     private static final String PATH = Environment.getExternalStorageDirectory().getPath();
     private static final String NEW_APK = PATH + File.separator + "new.apk";
     private static final String OUT_APK = PATH + File.separator + "out.apk";
