@@ -30,7 +30,7 @@ __FBSDID("$FreeBSD: src/usr.bin/bsdiff/bsdiff/bsdiff.c,v 1.1 2005/08/06 01:59:05
 
 #include <bzlib.h>
 #include <fcntl.h>
-#include <err.h>
+#include "err.h"
 
 #define MIN(x, y) (((x)<(y)) ? (x) : (y))
 

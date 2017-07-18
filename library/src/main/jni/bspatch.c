@@ -32,7 +32,7 @@ __FBSDID("$FreeBSD: src/usr.bin/bsdiff/bspatch/bspatch.c,v 1.1 2005/08/06 01:59:
 #include <stdlib.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <err.h>
+#include "err.h"
 
 static off_t offtin(u_char *buf) {
     off_t y;

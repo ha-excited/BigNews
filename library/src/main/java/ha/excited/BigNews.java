@@ -5,7 +5,7 @@ final public class BigNews {
         System.loadLibrary("bigNews");
     }
 
-    public static native boolean make(String oldFilePath, String newFilePath, String patchPath);
+    public synchronized static native boolean make(String oldFilePath, String newFilePath, String patchPath);
 
-    public static native boolean diff(String oldFilePath, String newFilePath, String patchPath);
+    public synchronized static native boolean diff(String oldFilePath, String newFilePath, String patchPath);
 }

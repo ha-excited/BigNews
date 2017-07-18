@@ -10,7 +10,7 @@ extern int bsdiff_main(int argc, char *argv[]);
 int main_exec(int (*mainFunc)(int, char **), int argc, char **argv) {
     int ret = fork();
     if (0 == ret) {
-        exit(mainFunc(argc, argv));
+        _exit(mainFunc(argc, argv));
     } else if (-1 != ret) {
         wait(&ret);
     }
