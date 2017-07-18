@@ -36,7 +36,7 @@ allprojects {
 在你项目模块内的build.gradle添加代码，然后Gradle Sync：
 ```gradle
     dependencies {
-        compile 'com.github.ha-excited:BigNews:0.1.1'
+        compile 'com.github.ha-excited:BigNews:0.1.2'
     }
 ```
 
