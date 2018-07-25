@@ -20,7 +20,7 @@ repositories {
     }
 }
 dependencies {
-    compile(name: 'bignews', ext: 'aar')
+    implementation(name: 'bignews', ext: 'aar')
 }
 
 ```
@@ -36,7 +36,7 @@ allprojects {
 在你项目模块内的build.gradle添加代码，然后Gradle Sync：
 ```gradle
     dependencies {
-        compile 'com.github.ha-excited:BigNews:0.1.2'
+        implementation 'com.github.ha-excited:BigNews:0.1.2'
     }
 ```
 
