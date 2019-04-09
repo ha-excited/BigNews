@@ -8,4 +8,5 @@
     <string name="make_failed">apk生成失败！你到底放了patch包没有！</string>
     <string name="make_done">apk生成到</string>
     <string name="description2">看看成功了没??!!</string>
+    <string name="permission_invalid">没有读写文件权限!</string>
 </resources>

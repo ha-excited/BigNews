@@ -11,21 +11,24 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:text="@string/description" />
+        android:text="@string/description"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/buttonDiff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/diff" />
+        android:text="@string/diff"
+        android:textAllCaps="false" />
 
     <Button
         android:id="@+id/buttonMake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/make" />
+        android:text="@string/make"
+        android:textAllCaps="false" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -33,5 +36,6 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:gravity="center"
-        android:text="@string/description2" />
+        android:text="@string/description2"
+        android:textAllCaps="false" />
 </LinearLayout>
